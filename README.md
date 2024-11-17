@@ -24,7 +24,7 @@ This web program displays data obtained from a database in a table, using FPDF i
 
 ## <p align="left" style="color: #80cbc4;"> Screenshot Project 💻 </p>
 
-🔶 [Project Website](https://alejandro-190107.github.io/Dynamic-FPDF/)
+<!-- 🔶 [Project Website]() -->
 
 ![Screenshot](assets/img/Screenshot(1).png) <br>
 ![Screenshot](assets/img/Screenshot.png)
