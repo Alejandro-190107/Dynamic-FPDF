@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Delius+Swash+Caps&family=Gamja+Flower&family=Kanit:wght@500&family=Kranky&family=Modak&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Rye&family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Delicious+Handrawn&family=Delius+Swash+Caps&family=Gamja+Flower&family=Kanit:wght@500&family=Kranky&family=Modak&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Rye&family=Sedgwick+Ave&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FBFBFB;
+}
+
+/* Navbar Style */
+.navbar{
+  background-color:#E57373;
+}
+
+.nav-link{
+  color: #7986CB;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: cursive;
+}
+
+/* Container Main Style */
+
+.container-main {
+  margin: 0 auto;
+  max-width: 1100px;
+  min-height: 500px;
+  text-align: center;
+  padding: 20px; 
+  padding-bottom: 10vh;
+}
+
+/* Container Information Style */
+
+.container-information{
+  margin: 0 auto;
+  max-width: 1000px;
+  min-height: 200px;
+}
+
+.img-information{
+  max-width: 100%;
+  padding: 15px; 
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-20px);
+  }
+  60% {
+      transform: translateY(-8px);
+  }
+}
+
+.title-information{
+  text-align: center;
+  color: #B71C1C;
+  font-family: "Delius Swash Caps", serif;
+  font-size: 22px;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.text-information{
+  text-align: justify;
+  color: #262626;
+  font-family: "Gamja Flower", serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.btn-information{
+  text-align: center;
+  font-weight: 700;
+  color: #FFEBEE;
+  background-color: #D32F2F;
+}
+
+.btn-information:hover{
+  color: #262626;
+  background-color: #D32F2F;
+}
+
+/* Modal Style */
+
+.title-modal{
+  color: #B71C1C;
+  font-family: "Delius Swash Caps", serif;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.iframe-modal{
+  width: 100%;
+  height: 600px;
+}
+
+/* Footer Style */
+
+.footer{
+  background-color:#E57373;
+}
+
+.copyright{
+  color: #C62828;
+  font-family: cursive;
+  text-align: center;
+}
+
+.copyright-link{
+  color: #B71C1C;
+  font-weight: 700;
+  text-align: center;
+}
